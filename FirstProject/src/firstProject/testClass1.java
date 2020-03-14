@@ -21,7 +21,8 @@ public class testClass1 {
 		
 		//Get current page title
 		System.out.println(driver.getTitle());
-		//driver.close();
+		
+		driver.close();
 		
 
 	}
